@@ -1,0 +1,13 @@
+h1{
+  background: Lightblue;
+}
+li{
+  background:grey;
+}
+#born{
+  color:green;
+}
+body{
+  background-image:url("ali.jpg");
+  background-repeat: no-repeat;
+}
