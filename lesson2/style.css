@@ -1,0 +1,36 @@
+p{
+background: yellow;
+
+}
+ul{
+  background: yellow;
+}
+#isalamabad {
+  background: green;
+}
+body
+
+ {
+    background-image: url("ali.jpg");
+background-size: 100%;
+}
+h1{
+  background: ;
+
+}
+h2{
+  background: white;
+}
+li {
+  color: white;
+}
+#country {
+  color: orange;
+}
+.odd {
+  font-style: italic;
+  color: black;
+}
+.even {
+  font-style: normal;
+}
