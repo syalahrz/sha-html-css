@@ -1,0 +1,62 @@
+p{
+background: yellow;
+
+}
+ul{
+  background: yellow;
+}
+#isalamabad {
+  background: green;
+}
+body
+
+ {
+    background-image: url("Mypic.jpg");
+background-size: 100%;
+}
+h1{
+  background: ;
+
+}
+h2{
+  background: white;
+}
+li {
+  color: white;
+}
+#country {
+  color: orange;
+}
+.odd {
+  font-style: italic;
+  color: black;
+}
+.even {
+  font-style: normal;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 400px;
+    height: 250px;
+    background-color: lightgrey;
+}
+
+.flex-item {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+ @media all and (max-width:800px) and (min-width:600px){
+  body{
+     background: url('baba.jpg') repeat-x;
+  }
+
+  #Khalima{
+    color:white;
+    font-size:10vw;
+
+  }
+}
