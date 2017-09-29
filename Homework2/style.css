@@ -1,0 +1,31 @@
+#grid-floats .grid-item:nth-child( 2n) {
+
+  width: 30%;
+}
+#grid-floats .grid-item { /*for all columns*/
+  float: left;
+}
+ {
+max-width:960px;
+text-align:center;
+}
+
+ {
+position:relative;
+display: inline-block;
+float:left;
+padding:10px;
+}
+
+ {
+position:relative;
+display: inline-block;
+pading:10px;
+}
+ {
+position:relative;
+display: inline-block;
+float:right;
+margin-right:50%;
+padding:10px;
+}

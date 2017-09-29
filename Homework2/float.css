@@ -1,0 +1,52 @@
+
+#grid-floats .grid-item {
+    float: left;
+    background-color: r;
+
+}
+.grid-item img { width: 90%;
+
+}
+@media all and ( max-width:900px) and (min-width:400px)
+{
+    #grid-floats .grid-item:nth-child(3n)
+    {
+      clear: left;
+    }
+    #grid-floats .grid-item:nth-child(1){
+      width: 50%;
+    }
+    #grid-floats .grid-item:nth-child(2){
+      width: 50%;
+    }
+    /*#grid-floats .grid-item:nth-child(1) img{
+      width:90%;
+    }
+    #grid-floats .grid-item:nth-child(2) img{
+      width:90%;
+    }*/
+    #grid-floats .grid-item {
+        width: 33%;
+    }
+}
+
+@media all and ( max-width:400px) and (min-width:0px)
+{
+  #grid-floats .grid-item:nth-child(2n+2)
+  {
+    clear:left;
+  }
+  #grid-floats .grid-item:nth-child(1){
+    width: 100%;
+  }
+  #grid-floats .grid-item:nth-child(2){
+    width: 50%;
+  }
+  #grid-floats .grid-item:nth-child(1) img{
+    width:100%;
+  }
+  #grid-floats .grid-item:nth-child(2) img{
+    width:50%;
+  }
+
+}
